@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.layout {
+    width: calc(100vw - 6px);
+    height: calc(100vh - 6px);
+    border: solid 3px black;
+    position: relative;
+    display: flex;
+}
+
+.contact-list {
+    height: calc(100% - 6px);
+    display: inline-block;
+    width: calc(35% - 6px);
+    border: solid 3px blue;
+}
+
+.contact-list-header {
+    width: calc(100% - 6px);
+    height: calc(15% - 6px);
+    border: solid 3px rgb(0, 132, 255);
+}
+
+.contacts-container {
+    width: calc(100% - 6px);
+    height: calc(85% - 6px);
+    border: solid 3px rgb(0, 255, 98);
+}
+
+.contacts {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.contact {
+    width: calc(100% - 6px);
+    height: calc(80px - 6px);
+    border: solid 3px rgb(0, 195, 255);
+}
+
+.chat-container {
+    height: calc(100% - 6px);
+    display: inline-block;
+    width: calc(75% - 6px);
+    border: solid 3px red;
+}
+
+.chat-header {
+    width: calc(100% - 6px);
+    height: calc(15% - 6px);
+    border: solid 3px rgb(0, 132, 255);
+}
+
+.chat-box {
+    width: calc(100% - 6px);
+    height: calc(85% - 6px);
+    border: solid 3px rgb(0, 255, 98);
+}
+
+.chat {
+    height: calc(100% - 86px);
+    width: calc(100% - 6px);
+    border: solid 3px rgb(53, 71, 60);
+}
+
+.chat-message-box {
+    width: calc(100% - 6px);
+    height: 72px;
+    border: solid 3px rgb(197, 134, 18);
+}
